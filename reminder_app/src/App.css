@@ -1,0 +1,93 @@
+h1{
+  color: crimson;
+  text-align: right;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width:600px;
+  min-height:600px;
+  border: 2px black solid;
+  margin: auto;
+  scroll-behavior: smooth;
+}
+
+.header{
+  
+  text-align: center;
+}
+.button{
+  background-color: green;
+  width: 100px;
+  cursor: pointer;
+  float: right;
+  padding:5px;
+  margin-left: 80px;
+  max-height: auto;
+  display: inline;
+}
+.changeButtonColor{
+  background-color: red;
+  width: 100px;
+  cursor: pointer;
+  float: right;
+  padding:5px;
+  margin-left: 80px;
+  max-height: auto;
+}
+
+.gridContainer{
+  display: grid;
+  grid-template-columns: .5fr .5fr ;
+  grid-column: span;
+}
+.tasklist{
+  background: gray;
+  margin: 5px;
+  padding: 5px 5px;
+  cursor: pointer;
+
+  /*overflow-y: scroll;*/
+  
+}
+
+.flexContainer{
+  display: flex;
+  flex-direction: column;
+}
+.span{
+  
+  float: right;
+}
+
+
+.tasklist.reminder{
+  border-left: 5px solid green ;
+}
+
+.tasklist.redReminder{
+  border-left:5px solid red;
+}
+
+.formParent{
+  border:5px solid black;
+  
+}
+
+.Label{
+  color: gold;
+  margin-right: 1em;
+}
+.Input{
+width: 95%;
+margin: 8px 0;
+padding: 8px;
+}
+
+.inputButton{
+  width: 4rem;
+}
+
+.CheckBox{
+  size: 4px;
+  margin-right: 50px;
+}
